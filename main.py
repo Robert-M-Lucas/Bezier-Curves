@@ -63,7 +63,9 @@ while True:
                     level = 4
 
     if held_handle is not None:
-        handles[held_handle].pos = pygame.mouse.get_pos()
+        if handles[held_handle].pos != pygame.mouse.get_pos():
+            points = []
+            handles[held_handle].pos = pygame.mouse.get_pos()
 
     loop = 1
 
