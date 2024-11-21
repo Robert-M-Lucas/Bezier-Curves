@@ -31,7 +31,7 @@ anim_progress = 0
 
 points = []
 
-increment = 0.001
+increment = 0.0005
 
 level = 4
 
